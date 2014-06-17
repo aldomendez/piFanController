@@ -18,3 +18,12 @@ quiero tener que correr el archivo todo el tiempo, lo que espero es
 programar la ejecucion y al ejecutarlo que se active el abanico en caso 
 de ser necesario, y que se mantenga encendido o apagado, hasta que vuelva
 a correr el script de nuevo.
+
+La instalacion del script se hara con `sudo crontab -e` y escribire una 
+linea paracida a la siguiente:
+
+```
+*/15  *  *  *  * python ~/tempControl/fan.py
+```
+
+esto tiene varios 
